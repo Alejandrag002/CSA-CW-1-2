@@ -1,0 +1,14 @@
+public class Initials
+{
+    //-----------------------------------------------
+    //  Prints My Initials in large block letters
+    //------------------------------------------------
+    public static void main (String[] args)
+    { 
+        System.out.println ("\tAAAAA\t\t\t\tGGGGGGG \n" + 
+        "\tA\tA\t\t\t\tG\t\t\t \n" + 
+        "\tA A A\t\t\t\tG\tGGGGG \n" + 
+        "\tA\tA\t\t\t\tG\t\tG \n" + 
+        "\tA\tA\t\t\t\tGGGGGGGGG");
+    }    
+}
