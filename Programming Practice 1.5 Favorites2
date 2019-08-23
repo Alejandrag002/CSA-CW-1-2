@@ -1,4 +1,4 @@
-public class Favorites2 
+public class Favorites2
 {
     //------------------------------------------------------------------
     // Prints my name,bithday,hobbies, favorite book and movie
@@ -6,8 +6,8 @@ public class Favorites2
     public static void main(String args[]) 
     {
       System.out.println("My name is \"Alex\" \n" + // name
-     "My Birthday is 05\\17\\2003 \n" +// birthday
-     "My favorite book is \'Frankenstein\' \n" + // favorite book
-     "My favorite movie is \"An Extremely Goofy Movie\"    "); // favorite movie 
+     "My Birthday is\t05\\17\\2003 \n" +// birthday
+     "My favorite book is\t\'Frankenstein\' \n" + // favorite book
+     "My favorite movie is\t\"An Extremely Goofy Movie\"    "); // favorite movie 
     }
 }
