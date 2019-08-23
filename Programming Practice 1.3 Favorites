@@ -5,9 +5,9 @@ public class Favorites
     //------------------------------------------------------------------
     public static void main(String args[]) 
     {
-      System.out.println("My name is \"Alex\" \n" + // name
-     "My Birthday is 05\\17\\2003 \n" +// birthday
-     "My favorite book is \'Frankenstein\' \n" + // favorite book
-     "My favorite movie is \"An Extremely Goofy Movie\"    "); // favorite movie 
+      System.out.println("My name is Alejandra \n" + // name
+     "My Birthday is May 17,2002 \n" +// birthday
+     "My favorite book is Frankenstein \n" + // favorite book
+     "My favorite movie is An Extremely Goofy Movie    "); // favorite movie 
     }
 }
