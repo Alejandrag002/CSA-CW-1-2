@@ -1,0 +1,43 @@
+//------------------
+// dieDriver.java
+//------------------
+import java.util.Scanner;
+
+public class dieDriver {
+    public static void main(String[] args)
+    {
+        int num;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Input number of sides: ");
+        num = scan.nextInt();
+
+        rollDie die1 = new rollDie(num);
+        System.out.println("rolled die that has " + die1.roll());
+        System.out.println("Dice landed at" );
+
+    }
+}
+//--------------------
+//rollDie.java
+//--------------------
+public class rollDie
+{
+    int numofsides;
+    public rollDie(int numofsides)
+    {
+        this.numofsides = numofsides;
+    }
+
+    public String toString()
+    {
+        return numofsides + "";
+    }
+    public int roll()
+    {
+        int x = numofsides + 1;
+        int random = (int) (Math.random() * x);
+        return random;
+    }
+
+}
